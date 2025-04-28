@@ -1,0 +1,35 @@
+.checkout-page {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+  }
+  
+  .checkout-section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+  }
+  
+  .order-summary {
+    border-radius: 8px;
+    border: 1px solid #eee;
+  }
+  
+  .card-details {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .payment-section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+  }
+  
+  .payment-methods {
+    margin-bottom: 20px;
+  }

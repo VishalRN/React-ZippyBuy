@@ -1,0 +1,105 @@
+/* product-details.css */
+
+.product-page {
+  padding: 4rem 0;
+}
+
+.product-page img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.product-page h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.rate {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.stars {
+  color: #ffc107;
+  margin-right: 0.5rem;
+}
+
+.stars i {
+  margin-right: 0.2rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #df2020;
+}
+
+.product-page p {
+  color: #777;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.qty-input {
+  width: 80px;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.qty-input:focus {
+  outline: none;
+  border-color: #df2020;
+}
+
+.add {
+  display: block;
+  background-color: #df2020;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add:hover {
+  background-color: #c51a1a;
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+  .product-page {
+    padding: 2rem 0;
+  }
+  
+  .product-page h2 {
+    font-size: 1.5rem;
+  }
+  
+  .info {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
